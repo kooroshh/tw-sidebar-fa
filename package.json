@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "watch" : "npx @tailwindcss/cli -i ./src/assets/style/style.css -o ./src/styles/main.css --watch",
+        "build" : "npx @tailwindcss/cli -i ./src/assets/style/style.css -o ./src/styles/main.css --minify",
+        "serve" : "live-server"
+    }
+}
